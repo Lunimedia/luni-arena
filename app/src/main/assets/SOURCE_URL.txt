@@ -1,1 +1,1 @@
-PRE_PUBLICATION_SETUP_REQUIRED
+https://github.com/Lunimedia/luni-arena/tree/v0.1.21
