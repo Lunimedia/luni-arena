@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(luniarena)
+add_library(lunibridge SHARED lunibridge.cpp)
+find_library(log-lib log)
+target_link_libraries(lunibridge ${log-lib} dl)
+target_link_options(lunibridge PRIVATE "-Wl,-z,max-page-size=16384" "-Wl,-z,common-page-size=16384")
+set_target_properties(lunibridge PROPERTIES CXX_STANDARD 17)

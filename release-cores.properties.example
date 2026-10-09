@@ -1,0 +1,9 @@
+# Copy this file to release-cores.properties only after building BOTH cores
+# from these exact source revisions and checking their corresponding source.
+# The release Gradle task checks hashes, source revision format and 16 KiB ELF alignment.
+# Do not put passwords or signing keys in this file. Publish the populated
+# manifest together with the complete source for each distributed release.
+bsnes_mercury_performance.sha256=REPLACE_WITH_64_HEX_CHARACTERS
+bsnes_mercury_performance.sourceCommit=REPLACE_WITH_40_HEX_CHARACTERS
+mesen_s.sha256=REPLACE_WITH_64_HEX_CHARACTERS
+mesen_s.sourceCommit=REPLACE_WITH_40_HEX_CHARACTERS

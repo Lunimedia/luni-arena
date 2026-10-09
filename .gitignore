@@ -1,0 +1,14 @@
+.gradle/
+build/
+app/.cxx/
+app/build/
+tools/gradle-*/
+tools/gradle-*.zip
+local.properties
+cover-cache/
+__pycache__/
+*.pyc
+*.jks
+*.keystore
+*.p12
+app/src/main/jniLibs/
